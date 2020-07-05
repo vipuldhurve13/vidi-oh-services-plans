@@ -1,0 +1,283 @@
+/* -------------------------------------------Upper Container ----------------------------------------------------- */
+
+/* .upper-col{
+    border: 1px solid black;
+} */
+
+/* .services-and-plans-mobile-banner{
+    display: none;
+}
+
+.services-and-plans-desktop-banner{
+    display: block;
+} */
+
+@media only screen and (max-width: 600px) {
+    .services-and-plans-mobile-banner img{
+        
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    object-position: center center;
+    }
+
+    .services-and-plans-desktop-banner{
+    display: none;
+    }
+
+    .headline-text-content h1{
+    margin-left: 250px;
+    }
+}
+
+
+
+.upper-container{
+    margin-top: 3%;
+}
+
+.choose-plans-text{
+    font-size: 1.2rem;
+    font-family: 'Comfortaa', cursive ;
+}
+
+.radio-button-container{
+    overflow: hidden;
+    top: 20px;
+    
+} 
+
+.radio-button-container{
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.label1, .label2{
+    display: inline-block;
+    background-color: white;
+    padding: 3%;
+    height: 50%;
+    width: 35%;
+    position: relative;
+    transition: 0.5s;
+    color: #2c2c2c;
+    /* border: 1px solid lightgrey; */
+    box-shadow: 0px 0px 8px grey;
+}
+
+@media only screen and (max-width: 1200px) {
+    .label1, .label2{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .upper-container .upper-col{
+        width: 100%;
+    }
+    .label1, .label2{
+        width: 30%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .upper-container .upper-col{
+        width: 100%;
+    }
+    .label1, .label2{
+        width:40%;
+        height: 90%;;
+    }
+}
+
+.label2{
+    right: 0;
+}
+
+.radio-button-span{
+    justify-content: center;
+    align-items: center;
+}
+
+input:checked+label{
+    /* background-position: 0 -90px; */
+    color: white;
+    background-color: #2c2c2c;
+    
+}
+
+/* -------------------------------------- Middle Rectangle Boxes ------------------------------------- */
+
+.recBox-container{
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.recBox{
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 20px rgb(196, 196, 196);
+    margin-right: auto;
+    margin-left: auto;
+    width: 30% !important;
+    background-color: whitesmoke;
+    margin-bottom: auto;
+    /* height: auto !important; */
+}
+
+/* .recBox-basic{
+    height: 405px;
+} */
+
+/* @media only screen and (max-width: 1200px) {
+    .recBox-basic{
+    height: 425px;
+}
+} */
+
+@media only screen and (max-width: 993px) {
+    .recBox{
+    width: 100% !important;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* .recBox-basic{
+    height: auto;
+} */
+}
+
+@media only screen and (max-width: 630px) {
+    .recBox{
+    width: 100% !important;
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+
+.plans-heading{
+    font-size: 1rem !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    
+}
+
+.plan-cost{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #1e3888;
+}
+
+.plan-cost-monthly-education, .plan-cost-yearly-education{
+    display: block;
+}
+
+.plan-cost-monthly-business, .plan-cost-yearly-business{
+    display: none;
+}
+
+.education-monthly, .education-yearly{
+    display: block;
+}
+
+.business-monthly, .business-yearly{
+    display: none;
+}
+
+.list-group{
+    font-size: 0.9rem !important;
+}
+
+.list-group-item{
+    border: none !important;
+    background-color: whitesmoke !important;
+    color: grey;
+    line-height: 150% !important;
+}
+
+.addOn-head a h5{
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size: 1rem;
+    color: grey;
+}
+
+.addOn-head a h5 i{
+    color: #1e3888;
+    font-weight: bolder;
+}
+
+.addOn-head a:hover{
+    text-decoration: none;
+}
+
+.addOn{
+    border: none !important;
+}
+
+.addOn-body{
+    background-color: whitesmoke;
+}
+
+/* ----------------------------------------     Bottom Buttons ------------------------------------- */
+
+.buttons-col{
+    width: 30%;
+    margin: auto;
+    border-top: 1px dashed grey;
+}
+
+.plans-button{
+    border-radius: 8px;
+    border: 1px dashed white;
+    height: 2.7rem;
+    width: 55%;
+    color: white;
+    font-size: 1.05rem;
+    transition: ease 0.2s;
+    font-family: 'Nunito Sans', sans-serif;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+    
+}
+
+.plans-button:focus{
+    outline: none;
+    border: 1px solid white;
+}
+
+.plans-button:hover{
+    font-size: 1.085rem;
+    font-weight: 400px;
+    background-color: white;
+}
+
+.free-button{
+    background-color: #5cb85c;
+}
+
+.free-button:hover{
+    color: #5cb85c;
+    border: 1px dashed #5cb85c;
+    box-shadow: 0px 0px 10px #5cb85c;
+}
+
+.buy-now-button{
+    background-color: rgb(42, 132, 206);
+}
+
+.buy-now-button:hover{
+    color: rgb(42, 132, 206);
+    border: 1px dashed rgb(42, 132, 206);
+    box-shadow: 0px 0px 10px rgb(42, 132, 206);
+}
